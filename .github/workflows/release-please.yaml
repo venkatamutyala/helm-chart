@@ -40,6 +40,20 @@ jobs:
       - name: Install Helm
         uses: azure/setup-helm@v5.0.0
 
+      # Regenerate the README from Chart.yaml (already bumped to the new version
+      # by release-please on this commit) so the PACKAGED chart's docs match the
+      # release. This only updates the working tree — the standalone
+      # helm-docs.yml workflow still keeps main's README in sync separately, so
+      # there's no push race here.
+      - name: Install helm-docs
+        uses: envoy/install-helm-docs@05313083ef2cfaea27c4c3d7cb725242d22ea88b # v1.0.0
+        with:
+          version: 1.12.0
+
+      - name: Render helm-docs into the working tree
+        shell: bash
+        run: helm-docs -t README.md.gotmpl
+
       - name: get helm dependencies
         shell: bash
         run: |

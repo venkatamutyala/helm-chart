@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.0](https://github.com/venkatamutyala/helm-chart/compare/v0.6.6...v0.7.0) (2026-06-30)
+
+
+### Features
+
+* Create test.keep ([5c26ecd](https://github.com/venkatamutyala/helm-chart/commit/5c26ecde17b3c748397baae8f9e7573964be286e))
+* Create test.keep ([56f07e6](https://github.com/venkatamutyala/helm-chart/commit/56f07e6258853ef97e8e14cd973af784fb80831c))
+
 ## [0.6.6](https://github.com/venkatamutyala/helm-chart/compare/v0.6.5...v0.6.6) (2026-06-30)
 
 

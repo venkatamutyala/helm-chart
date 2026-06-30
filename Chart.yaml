@@ -1,9 +1,9 @@
 apiVersion: v2
 name: onetimesecret
 description: |
-  A Helm chart for onetimesecret. Install with
+  A Helm chart for onetimesecret. Install the latest release with
 
-  `helm install onetimesecret oci://ghcr.io/onetimesecret/helm-chart/onetimesecret --version v0.6.3`
+  `helm install onetimesecret oci://ghcr.io/venkatamutyala/helm-chart/onetimesecret`
 
 # A chart can be either an 'application' or a 'library' chart.
 #

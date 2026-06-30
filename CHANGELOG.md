@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.6.6](https://github.com/venkatamutyala/helm-chart/compare/v0.6.5...v0.6.6) (2026-06-30)
+
+
+### Bug Fixes
+
+* include regenerated chart docs in the release commit and tag ([9238b88](https://github.com/venkatamutyala/helm-chart/commit/9238b880e61b6e6fcaa66efaa2219d2c7a35d652))
+* include regenerated chart docs in the release commit and tag ([f2f21de](https://github.com/venkatamutyala/helm-chart/commit/f2f21de6d5fbbf715f37f6a4a8a4b4e5b705dec6))
+
+
+### Documentation
+
+* automated helm-docs action ([a115bd7](https://github.com/venkatamutyala/helm-chart/commit/a115bd7f68b178b7a2807fc346575a98d00ea598))
+
 ## [0.6.5](https://github.com/venkatamutyala/helm-chart/compare/v0.6.4...v0.6.5) (2026-06-30)
 
 
